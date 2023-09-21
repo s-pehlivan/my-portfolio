@@ -3,11 +3,15 @@ import NavLink from "./NavLink";
 
 const linksList = [
   {
-    title: "About",
+    title: "About Me",
     path: "/about",
   },
   {
-    title: "Contact Me",
+    title: "Projects",
+    path: "/projects",
+  },
+  {
+    title: "Contact",
     path: "/contact",
   },
 ];
@@ -15,7 +19,7 @@ const linksList = [
 const NavLinks = () => {
   return (
     <nav className="nav-links">
-      <ul className="flex gap-4">
+      <ul className="flex gap-5">
         {linksList.map((link) => (
           <li key={link.title}>
             <NavLink path={link.path} title={link.title} />
