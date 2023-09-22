@@ -10,10 +10,9 @@ const Intro = () => {
             Front-End Development
           </h2>
           <p>
-            I have started learning Front-End Development a year ago and
-            currently I am working as a mentor assistant in OJS Bootcamp and
-            currently looking for different job opportunities and new
-            challenges.
+            I started learning Front-End Development a year ago, and I am
+            currently working as a mentor assistant in OJS Bootcamp. I am always
+            waiting for different job opportunities and new challenges.
           </p>
         </div>
         <div>
@@ -21,10 +20,10 @@ const Intro = () => {
             iOS Development
           </h2>
           <p>
-            I have started learning iOS Application development two years ago
-            and have build different applications and earned experience. I am
-            passionate about iOS Develeopment and currently working on different
-            iOS projects.
+            I started learning iOS Application development two years ago and,
+            during that time, built different applications and earned
+            experience. I am passionate about iOS development and currently
+            working on different iOS projects.
           </p>
         </div>
       </div>
