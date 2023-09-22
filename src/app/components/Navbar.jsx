@@ -3,23 +3,20 @@ import { useState } from "react";
 import React from "react";
 
 import NavLinks from "./NavLinks";
-import Link from "next/link";
 
 import { FaBars, FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
+
   return (
     <div className="navbar fixed top-0 left-0 right-0 backdrop-blur-xl bg-black bg-opacity-60 md:bg-opacity-10 shadow-xl shadow-[#0669AD]/100 transition-all delay-100">
       <nav>
         <div className="flex flex-col px-8 sm:px-14 md:px-18 py-2">
           <div className="flex justify-between items-center py-5">
-            <Link
-              href="/"
-              className="pb-1 hover:text-slate-400 text-2xl sm:text-3xl md:text-3xl"
-            >
+            <p className="pb-1text-2xl sm:text-3xl md:text-3xl">
               Sevde Pehlivan
-            </Link>
+            </p>
             <div className="mobile-menu block md:hidden pb-1">
               {navbarOpen ? (
                 <button

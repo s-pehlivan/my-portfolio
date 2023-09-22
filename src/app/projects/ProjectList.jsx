@@ -111,16 +111,18 @@ const ProjectList = () => {
         />
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 items-baseline">
-        {prjList.map((project) => (
-          <ProjectCard
-            key={project.title}
-            title={project.title}
-            description={project.description}
-            img={project.image}
-            gitLink={project.gitLink}
-            demoLink={project.demoLink}
-          />
-        ))}
+        {prjList
+          .filter((project) => project.tag.includes(selected))
+          .map((project) => (
+            <ProjectCard
+              key={project.title}
+              title={project.title}
+              description={project.description}
+              img={project.image}
+              gitLink={project.gitLink}
+              demoLink={project.demoLink}
+            />
+          ))}
       </div>
     </div>
   );

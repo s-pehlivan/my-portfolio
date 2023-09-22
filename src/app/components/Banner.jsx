@@ -1,7 +1,6 @@
 import React from "react";
 import NavLinks from "./NavLinks";
 import SocialMedia from "./SocialMedia";
-import DownloadCV from "./DownloadCV";
 
 const Banner = () => {
   return (
@@ -12,14 +11,13 @@ const Banner = () => {
             Sevde Pehlivan
           </h1>
           <h2 className="text-lg md:text-xl text-[#DB8D76] font-bold">
-            Full Stack Developer | iOS Application Developer
+            Front-End Developer | iOS Application Developer
           </h2>
           <p className="text-lg md:text-xl">
             An aspiring engineer with a passion for coding.
           </p>
           <div className="flex flex-col items-center gap-3 md:flex-row mt-10 text-lg md:text-xl">
             <NavLinks />
-            <DownloadCV />
           </div>
           <SocialMedia />
         </div>

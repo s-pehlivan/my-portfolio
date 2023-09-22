@@ -1,7 +1,11 @@
-import React from "react";
+"use client";
 import NavLink from "./NavLink";
 
 const linksList = [
+  {
+    title: "Home",
+    path: "/",
+  },
   {
     title: "About Me",
     path: "/about",

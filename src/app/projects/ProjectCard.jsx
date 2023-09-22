@@ -13,12 +13,14 @@ const ProjectCard = ({ title, description, img, gitLink, demoLink }) => {
           >
             <FaCode />
           </Link>
-          <Link
-            href="/projects"
-            className="border relative text-3xl rounded-full p-2 border-slate-300 text-slate-300 hover:text-white hover:border-white"
-          >
-            <FaEye />
-          </Link>
+          {demoLink !== "" && (
+            <Link
+              href="/projects"
+              className="border relative text-3xl rounded-full p-2 border-slate-300 text-slate-300 hover:text-white hover:border-white"
+            >
+              <FaEye />
+            </Link>
+          )}
         </div>
       </div>
       <div className="content p-2">
