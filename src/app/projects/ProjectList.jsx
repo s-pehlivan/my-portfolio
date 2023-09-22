@@ -10,24 +10,24 @@ const prjList = [
   {
     title: "Travel",
     description: "A web application for a travel list.",
-    image: "",
+    image: "/images/app-imgs/travel.jpg",
     tag: ["All", "Web"],
-    demoLink: "",
+    demoLink: "https://travel-list-bay.vercel.app/",
     gitLink: "/projects",
   },
   {
     title: "Eat N' Split",
     description: "A web application for splitting the bills.",
-    image: "",
+    image: "/images/app-imgs/eat-split.jpg",
     tag: ["All", "Web"],
-    demoLink: "",
+    demoLink: "https://eat-n-split-blush.vercel.app/",
     gitLink: "/projects",
   },
   {
     title: "usePopcorn",
     description:
       "A web application to view and rate movies, and add them to watched-list. ",
-    image: "",
+    image: "/images/app-imgs/usePopcorn.jpg",
     tag: ["All", "Web"],
     demoLink: "",
     gitLink: "/",
@@ -35,7 +35,7 @@ const prjList = [
   {
     title: "Tip For Meal",
     description: "A tip calculator application for iOS. ",
-    image: "",
+    image: "/images/app-imgs/phone-1.jpeg",
     tag: ["All", "iOS"],
     demoLink: "",
     gitLink: "https://github.com/s-pehlivan/TipForMeal",
@@ -44,7 +44,7 @@ const prjList = [
     title: "ByteCoin",
     description:
       "ByteCoin app provides the latest Bitcoin prices for the chosen currency.",
-    image: "",
+    image: "/images/app-imgs/phone-2.jpeg",
     tag: ["All", "iOS"],
     demoLink: "",
     gitLink: "https://github.com/s-pehlivan/ByteCoin",
@@ -52,7 +52,7 @@ const prjList = [
   {
     title: "Daily Records",
     description: "A simple diary application.",
-    image: "",
+    image: "/images/app-imgs/daily.jpg",
     tag: ["All", "iOS"],
     demoLink: "",
     gitLink: "https://github.com/s-pehlivan/DailyRecords",
@@ -60,7 +60,7 @@ const prjList = [
   {
     title: "My Notes",
     description: "A simple note-taking application.",
-    image: "",
+    image: "/images/app-imgs/my-notes.jpg",
     tag: ["All", "iOS"],
     demoLink: "",
     gitLink: "https://github.com/s-pehlivan/MyNotes",
@@ -68,7 +68,7 @@ const prjList = [
   {
     title: "Learn Kanji",
     description: "Kanji Dictionary App",
-    image: "",
+    image: "/images/app-imgs/learn-kanji.jpg",
     tag: ["All", "iOS"],
     demoLink: "",
     gitLink: "https://github.com/s-pehlivan/LearnKanji",
@@ -76,7 +76,7 @@ const prjList = [
   {
     title: "To Do",
     description: "This is a simple to-do list application.",
-    image: "",
+    image: "/images/app-imgs/to-do.jpg",
     tag: ["All", "iOS"],
     demoLink: "",
     gitLink: "https://github.com/s-pehlivan/To-Do",

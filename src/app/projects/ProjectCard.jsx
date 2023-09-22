@@ -5,7 +5,10 @@ import { FaCode, FaEye } from "react-icons/fa";
 const ProjectCard = ({ title, description, img, gitLink, demoLink }) => {
   return (
     <div className="card flex flex-col gap-2 items-start justify-center p-3 my-2">
-      <div className="bg-[url('/images/about-bg.jpeg')] relative h-60 w-full group rounded-xl">
+      <div
+        className={`relative h-60 w-full group rounded-xl`}
+        style={{ background: `url(${img})`, backgroundSize: "cover" }}
+      >
         <div className="absolute top-0 left-0 w-full h-full bg-[#131313] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500 items-center justify-center gap-5">
           <Link
             href={gitLink}
@@ -15,7 +18,7 @@ const ProjectCard = ({ title, description, img, gitLink, demoLink }) => {
           </Link>
           {demoLink !== "" && (
             <Link
-              href="/projects"
+              href={demoLink}
               className="border relative text-3xl rounded-full p-2 border-slate-300 text-slate-300 hover:text-white hover:border-white"
             >
               <FaEye />
