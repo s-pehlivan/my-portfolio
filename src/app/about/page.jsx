@@ -3,16 +3,13 @@ import Navbar from "../components/Navbar";
 import BlackContainer from "../components/BlackContainer";
 import Footer from "../components/Footer";
 import Layout from "../components/Layout";
-import Intro from "./Intro";
-import Skills from "./Skills";
-
+import AboutInfo from "./AboutInfo";
 const About = () => {
   return (
     <Layout>
       <Navbar />
       <BlackContainer>
-        <Intro />
-        <Skills />
+        <AboutInfo />
       </BlackContainer>
       <Footer />
     </Layout>

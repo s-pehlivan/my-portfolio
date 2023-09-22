@@ -91,9 +91,9 @@ const ProjectList = () => {
   };
 
   return (
-    <div className="pt-4">
-      <LineTitle textSize="text-3xl">Projects</LineTitle>
-      <div className="buttons flex justify-center gap-3 text-lg my-5">
+    <div className="p-10">
+      <LineTitle textSize="text-xl sm:text-2xl text-3xl">Projects</LineTitle>
+      <div className="buttons flex justify-center gap-2 sm:gap-3 text-md sm:text-lg my-5">
         <ProjectTag
           name="All"
           onClick={handleSelection}
@@ -110,7 +110,7 @@ const ProjectList = () => {
           isSelected={selected === "iOS"}
         />
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 items-baseline">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 items-baseline">
         {prjList
           .filter((project) => project.tag.includes(selected))
           .map((project) => (

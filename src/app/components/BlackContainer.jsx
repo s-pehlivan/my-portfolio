@@ -2,10 +2,8 @@ import React from "react";
 
 const BlackContainer = ({ children }) => {
   return (
-    <div className="h-full flex flex-col justify-center items-center mb-10 mt-24">
-      <div className="h-full bg-black bg-opacity-60 rounded-lg p-5 my-8">
-        <div className="h-full flex flex-col gap-14">{children}</div>
-      </div>
+    <div className="h-full flex flex-col justify-center items-center mb-24 sm:mb-24 mt-48 bg-black bg-opacity-60 rounded-lg p-10">
+      {children}
     </div>
   );
 };

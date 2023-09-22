@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Intro = () => {
   return (
-    <section className="intro flex flex-col md:flex-row justify-between items-center gap-8">
+    <section className="intro flex flex-col md:flex-row justify-between items-center gap-8 mb-10 lg:mb-6">
       <div className="content flex flex-col gap-8 text-center md:text-start">
         <div>
           <h2 className="text-2xl text-[#DB8D76] font-bold mb-2">

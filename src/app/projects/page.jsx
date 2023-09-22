@@ -10,7 +10,9 @@ const Projects = () => {
     <Layout>
       <Navbar />
       <BlackContainer>
-        <ProjectList />
+        <div className="p-10">
+          <ProjectList />
+        </div>
       </BlackContainer>
       <Footer />
     </Layout>
