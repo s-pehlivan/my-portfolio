@@ -4,15 +4,15 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const SocialMedia = () => {
   return (
-    <div className="socials mt-7">
-      <ul className="flex gap-4 text-2xl text-[#0669AD]">
-        <li className="border-2 border-[#0669AD] hover:border-[#5eb7f2] hover:text-[#5eb7f2] p-2 rounded-full">
-          <Link href="/about">
+    <div className="socials">
+      <ul className="flex gap-4 text-2xl text-[#DB8D76]">
+        <li className="border-2 border-[#0669AD] hover:border-[#5eb7f2] hover:text-[#ffc19f] p-2 rounded-full">
+          <Link href="https://github.com/s-pehlivan">
             <FaGithub />
           </Link>
         </li>
-        <li className="border-2 border-[#0669AD] hover:border-[#5eb7f2] hover:text-[#5eb7f2] p-2 rounded-full">
-          <Link href="/about">
+        <li className="border-2 border-[#0669AD] hover:border-[#5eb7f2] hover:text-[#ffc19f] p-2 rounded-full">
+          <Link href="https://www.linkedin.com/in/f-sevde-pehlivan-77f/">
             <FaLinkedinIn />
           </Link>
         </li>

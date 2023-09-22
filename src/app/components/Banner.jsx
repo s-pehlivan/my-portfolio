@@ -17,7 +17,7 @@ const Banner = () => {
             An aspiring engineer with a passion for coding.
           </p>
           <div className="flex flex-col items-center gap-3 md:flex-row mt-10 text-lg md:text-xl">
-            <NavLinks />
+            <NavLinks mobileStyle="flex flex-col sm:flex-row mb-10" />
           </div>
           <SocialMedia />
         </div>

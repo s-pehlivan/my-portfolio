@@ -10,12 +10,10 @@ const Intro = () => {
             Front-End Development
           </h2>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate
-            saepe esse autem nostrum! Minus tempore alias sapiente cum laborum
-            cumque ex necessitatibus quod doloribus optio sunt, facere ut
-            voluptatem dicta culpa unde ipsa soluta praesentium quidem sit odio
-            nesciunt obcaecati dolor. Rem tempora magni amet exercitationem
-            minima quidem rerum soluta.
+            I have started learning Front-End Development a year ago and
+            currently I am working as a mentor assistant in OJS Bootcamp and
+            currently looking for different job opportunities and new
+            challenges.
           </p>
         </div>
         <div>
@@ -23,12 +21,10 @@ const Intro = () => {
             iOS Development
           </h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error non,
-            atque porro, nemo tempore quos libero nobis doloribus eum unde
-            tenetur sit. Nostrum sunt porro dolores vero sint quia debitis
-            asperiores dicta ex? Vel assumenda rem, cumque quisquam corporis
-            necessitatibus! Eligendi aliquam dignissimos deserunt omnis suscipit
-            illum, cum hic! Molestias?
+            I have started learning iOS Application development two years ago
+            and have build different applications and earned experience. I am
+            passionate about iOS Develeopment and currently working on different
+            iOS projects.
           </p>
         </div>
       </div>
@@ -37,8 +33,8 @@ const Intro = () => {
           className=" brightness-75 rounded-full shadow-2xl shadow-[#DB8D76]/100 mt-5 "
           src="/images/avatar.png"
           alt="avatar"
-          width={1500}
-          height={1500}
+          width={900}
+          height={900}
         />
       </div>
     </section>

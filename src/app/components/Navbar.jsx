@@ -10,7 +10,7 @@ const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   return (
-    <div className="navbar fixed top-0 left-0 right-0 backdrop-blur-xl bg-black bg-opacity-60 md:bg-opacity-10 shadow-xl shadow-[#0669AD]/100 transition-all delay-100">
+    <div className="navbar fixed top-0 left-0 right-0 backdrop-blur-xl bg-black bg-opacity-60 md:bg-opacity-10 shadow-xl shadow-[#0669AD]/100 transition-all delay-100 text-white">
       <nav>
         <div className="flex flex-col px-8 sm:px-14 md:px-18 py-2">
           <div className="flex justify-between items-center py-5">
