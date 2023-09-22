@@ -16,17 +16,17 @@ const linksList = [
   },
 ];
 
-const NavLinks = () => {
+const NavLinks = ({ mobileStyle }) => {
   return (
-    <nav className="nav-links">
-      <ul className="flex gap-5">
+    <div className="nav-links">
+      <ul className={`flex flex-row gap-5 ${mobileStyle}`}>
         {linksList.map((link) => (
           <li key={link.title}>
             <NavLink path={link.path} title={link.title} />
           </li>
         ))}
       </ul>
-    </nav>
+    </div>
   );
 };
 

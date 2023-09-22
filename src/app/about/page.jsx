@@ -1,17 +1,21 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import AboutContainer from "./AboutContainer";
+import BlackContainer from "../components/BlackContainer";
 import Footer from "../components/Footer";
+import Layout from "../components/Layout";
+import Intro from "./Intro";
+import Skills from "./Skills";
 
 const About = () => {
   return (
-    <main className="min-h-screen container mx-auto">
+    <Layout>
       <Navbar />
-      <div className="h-full p-5 flex flex-col justify-center">
-        <AboutContainer />
-      </div>
+      <BlackContainer>
+        <Intro />
+        <Skills />
+      </BlackContainer>
       <Footer />
-    </main>
+    </Layout>
   );
 };
 
